@@ -1,0 +1,15 @@
+[datapath]
+Final_Quality = {global path of  .json file}
+init_os_prompt = {global path of  .json file}
+record_folder = {global path of folder}
+
+[breeze]
+SUGGEST_SYSTEM_PROMPT = {system prompt for breeze}
+lab = {url of api without port}
+
+[embedding]
+bgem3 = {url of api WITH port}
+
+[DEBUGGER]
+DEBUGGER = False
+; DEBUGGER = True

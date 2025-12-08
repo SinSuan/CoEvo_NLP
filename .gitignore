@@ -1,0 +1,8 @@
+utils/api/
+data/
+model/
+prompt/init_population/old/
+config.ini
+test*
+__pycache__/
+*UB*

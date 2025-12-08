@@ -1,0 +1,67 @@
+EXAMPLE = {
+    "EvoDE": {
+        "user" : {
+            "p_1": "{p_1}",
+            "p_2": "{p_2}",
+            "p_best": "{p_best}",
+            "p_i": "{p_i}"
+        },
+        "assistant" : {
+            "part_diff": \
+"""{part_diff}""",
+
+            "part_diff_mutated": \
+"""{part_diff_mutated}""",
+
+            "p_new": "{p_new}",
+            "p_final": "{p_final}"
+        }
+    },
+
+    "EvoGA": {
+        "user": {
+            "p_1": "{p_1}",
+            "p_2": "{p_2}",
+        },
+        "assistant": {
+            "p_new": "{p_new}",
+            "p_final": "{p_final}"
+        }
+    },
+
+    "ContrGA": {
+        "user": {
+            "p_better": "{p_better}",
+            "p_normal": "{p_normal}",
+        },
+        "assistant": {
+            "p_new": "{p_new}",
+            "p_final": "{p_final}"
+        }
+    },
+
+    "CoEvo": {
+        "user": {
+            "p_contr": "{p_contr}",
+            "p_best": "{p_best}",
+            "p_i": "{p_i}"
+        },
+
+        "assistant" : {
+            "part_common": \
+"""{part_common}""",
+
+            "part_diff": \
+"""{part_diff}""",
+
+            "part_common_mutated": \
+"""{part_common_mutated}""",
+
+            "part_diff_mutated": \
+"""{part_diff_mutated}""",
+
+            "p_new": "{p_new}",
+            "p_final": "{p_final}"
+        }
+    }
+}
