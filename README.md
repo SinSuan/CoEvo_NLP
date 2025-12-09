@@ -1,13 +1,3 @@
-[FlowChart](https://app.diagrams.net/#G1jZPJl-ub39yaKapU4RwJSkQrHc7fB1Ef#%7B%22pageId%22%3A%22TYXShAZ42i61218cSP02%22%7D)
-
-[EvoPrompt](https://arxiv.org/abs/2309.08532)
-
-ttl = total
-
-instruction
-
-{your_command} 2>&1 | tee {relative_path to log.txt}
-
 ### init
 ```
 pip install -r requirements.txt
